@@ -2,7 +2,7 @@
 
 Given the following classes, implement the methods:
 
-HowManyPeopleInTheQueue, returns the number of people in the queue.
+*HowManyPeopleInTheQueue*, returns the number of people in the queue.
 
 HowManyWaitingForService,returns how many people are in the queue waiting for a specific type of service. Type of service is used to determine who will help the person, some types of services are account enquiries, new contracts, etc. Notice that each type of service is represented in the system by an integer number.
 
@@ -11,9 +11,13 @@ class Ticket{
   String description;
   
   ...
+  
   public int getTypeOfService(){
+  
      return type of service;
+     
    }
+   
 }
 
 class MTCQueueSystem{
